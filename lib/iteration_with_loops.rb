@@ -9,11 +9,11 @@ while row_index < src.count do
   while element_index < src[row_index][element_index].count do
     if src[row_index][element_index].class == String
       p src[row_index][element_index]
-      
+    new_value << src[row_index][element_index]
     end
     element_index += 1
   end
   row_index += 1
 end
-src(new_value)
+new_value
 end
